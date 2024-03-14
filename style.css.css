@@ -1,0 +1,407 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.header
+{
+    height: 100%;
+    background-image:
+url(Images/Background%20img.jpg);
+    
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+.container
+{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.active, .container ul li:hover
+{
+    background: black;
+    border-radius: 3px;
+}
+.logo
+{
+    margin-top: 10px; 
+    width:100;
+
+}
+.header-text
+{
+    max-width: 970px;
+    margin-top: 220px;
+    color: #fff;
+}
+h1
+{
+    font-size: 24px;
+    text-align: center;
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li
+
+{
+    display: inline-block;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.input-group
+{
+    width: 90%;
+    
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    
+   padding: 0 25px !important;
+   border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.gallery
+{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;  
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+
+}
+.gallery-box h2
+{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.Follow us on .row .fa
+
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.Follow us on hr
+{
+    margin-top: 10px;
+    background: black;
+}
+.content
+{
+    width: 100%;
+    height: 80%;
+    margin: 100px auto;
+}
+.content .upper
+{
+    width: 100%;
+    height: 10%;
+    
+    justify-content: space-around;
+    display: flex;
+}
+.content .upper div
+{
+    width: 50%;
+}
+.content .upper div img
+{
+    width: 100%;
+
+    height: 300px;
+}
+.booking-form-box
+{
+    max-height: 350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+
+.radio-btn
+{
+    margin: 0 20px;
+}
+.radio-btn .btn
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.app-container
+{
+    height: 600px;
+    width: 350px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    left: 50%;
+}
+.top-box
+{
+    height: 150px;
+  
+    background-color: #9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.top-box p
+{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.left-icon
+{
+    float: left;
+    margin-left: 30px;
+}
+.right-icon
+{
+    float: right;
+    margin-right: 30px;
+
+}
+.middle-box
+{
+    height: 150px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    margin: -70px 30px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.middle-box h1
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.middle-box h1 span
+
+{
+    font-size: 20px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+}
+.payment-option-btn
+{
+    color: #fff;
+    margin: 5px 30px;
+    height: 30px;
+    width: 290px;
+    background-color: #9100fd;
+    border: none;
+    cursor: pointer;
+}
+.card-details
+{
+    background: #fff;
+ 
+    color: #555;
+    margin: 10px 30px;
+    padding: 10px; 
+}
+.card-details p
+{
+    font-size: 14px;
+}      
+.card-details label
+{
+    font-size: 10px;
+    line-height: 20px;
+}
+.card-num-field-group
+{
+    margin-top: 10px;
+}
+.date-field-group
+{
+    
+    margin-top: 10px;
+    display: inline-block;
+}
+body
+{
+    background: #e3edf7;
+}
+h1
+{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 200px 0 100px;
+    color: #555;
+    text-align: center;
+}
+.social-media
+{
+    
+    display: flex;
+   justify-content: center;
+}
+a
+{
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+        -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+}
+
+a i
+{
+    font-size: 35px;
+    color: #777;
+    transition: transform 0.5s;
+}
+a:hover
+{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translate(2px);
+}
+a:hover i
+{
+
+    transform: scale(0.90);
+}
+a:hover .fa-facebook
+{
+    color: #3b5998;
+}
+a:hover .fa-twitter
+{
+    color: #00acee;
+}
+a:hover .fa-whatsapp
+{
+    color: #4fce5d;
+}
+a:hover .fa-instagram
+{
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, 
+
+#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
+}
+a:hover .fa-youtube
+{
+    color: #f00;
+}
+.about-area
+{
+padding-top: 5%;
+}
+body
+{
+background: black;
+}
+.about-img
+{
+position: relative;
+}
+
+.about-img before
+{
+position: absolute;
+content: ' ';
+right: -30px;
+top: -30px;
+border: 10px solid rgba(255,255,255,0.5);
+width: 100%;
+height: 100%;
+}
+.about-img img 
+{
+width: 100%;
+}
+.about-text
+{
+padding-top: 20%;
+left: 100%;
+}
+.about-text h2
+{
+color: #fff;
+font-family: lobster;
+font-size: 50px;
+}
+.about-text p{
+font-size: 18px;
+color: #ddd;
+}
+.about-text a{
+background: #fff;
+color: black;
+padding: 7px 15px;
+display: inline-block;
+margin-top:20px;
+}
+
